@@ -8,7 +8,6 @@ tmap_location_url = "https://apis.openapi.sk.com/tmap/pois?version=1&format=json
 rest_api_key = settings.get_apiKey('rest_api_key')
 
 searchKeyword = "스타벅스 리저브"
-
 params = {
     "appKey" : rest_api_key,
     "searchKeyword" : searchKeyword,
