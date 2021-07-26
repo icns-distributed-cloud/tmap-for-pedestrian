@@ -37,3 +37,7 @@ for i in location_poi:
     print(f'poi_Lon = {poi_Lon}')
     print(f'poi_Lat = {poi_Lat}')
     print(f'poi_radius = {poi_radius}\n')
+    print(type(poi_Lon))
+
+
+

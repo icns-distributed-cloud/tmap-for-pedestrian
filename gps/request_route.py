@@ -24,6 +24,7 @@ res = requests.post(tmap_route_url, data=data)
 
 
 response_dict = json.loads(res.text)
+print(response_dict['features'])
 for i in response_dict['features']:
     route_geometry = i['geometry']
     route_properties = i['properties']
