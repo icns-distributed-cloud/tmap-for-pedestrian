@@ -2,7 +2,9 @@
 import requests
 import json
 import settings
-
+"""
+This is Tmap api base.
+"""
 tmap_route_url = "https://apis.openapi.sk.com/tmap/routes/pedestrian?version=1&format=json&callback=result"
 
 rest_api_key = settings.get_apiKey('rest_api_key')
