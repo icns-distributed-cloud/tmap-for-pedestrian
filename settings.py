@@ -1,6 +1,8 @@
 import json
 import os
-
+"""
+secret key
+"""
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 secret_file = os.path.join(BASE_DIR, 'secrets.json')
