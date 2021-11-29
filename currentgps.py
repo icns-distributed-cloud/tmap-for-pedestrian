@@ -3,7 +3,9 @@ from ublox_gps import UbloxGps
 import serial
 # Can also use SPI here - import spidev
 # I2C is not supported
-
+"""
+I used Ublox gps library.
+"""
 port = serial.Serial('/dev/ttyACM0', baudrate=460800, timeout=1)
 gps = UbloxGps(port)
 
