@@ -2,7 +2,9 @@
 import requests
 import json
 import settings
-
+"""
+request location
+"""
 tmap_location_url = "https://apis.openapi.sk.com/tmap/pois?version=1&format=json&callback=result"
 
 rest_api_key = settings.get_apiKey('rest_api_key')
